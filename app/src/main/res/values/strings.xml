@@ -7,5 +7,9 @@
 
     <string name="email_field">Correo electrónico</string>
     <string name="password_field">Contraseña</string>
+    <string name="name_field">Nombre</string>
+    <string name="surname_field">Apellidos</string>
+
+    <string name="have_acount">¿Ya tienes una cuenta?</string>
 
 </resources>
