@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Cuaderno del profe</string>
+    <string name="app_description">Excelente aplicacion para que los profesores lleven de forma ordenada y bien estructurada la información de la clase</string>
+
+    <string name="signup_action">Registrarse</string>
+    <string name="signin_action">Iniciar sesión</string>
+
+    <string name="email_field">Correo electrónico</string>
+    <string name="password_field">Contraseña</string>
+
 </resources>
