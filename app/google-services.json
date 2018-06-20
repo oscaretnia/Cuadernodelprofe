@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "921248640303",
+    "firebase_url": "https://cuadernodelprofe-fe219.firebaseio.com",
+    "project_id": "cuadernodelprofe-fe219",
+    "storage_bucket": "cuadernodelprofe-fe219.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921248640303:android:eff80697cc64acda",
+        "android_client_info": {
+          "package_name": "com.oscaretnia.cuadernodelprofe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921248640303-lej4sbi1ora7pg609ka2po7s9k54j05j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oscaretnia.cuadernodelprofe",
+            "certificate_hash": "ad31370d6c507c221d1a1aeea6a1707511b3875d"
+          }
+        },
+        {
+          "client_id": "921248640303-096iq3tkpldplcga33si7qgamn5omnim.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "921248640303-096iq3tkpldplcga33si7qgamn5omnim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPRSoz9W4mBTeYDZ3BriZthmg4IucIo-I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921248640303-096iq3tkpldplcga33si7qgamn5omnim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

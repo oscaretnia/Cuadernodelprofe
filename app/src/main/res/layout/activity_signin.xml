@@ -68,7 +68,7 @@
 
                 <EditText
 
-                    android:id="@+id/emailFieldSignIn"
+                    android:id="@+id/email_field_signin"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
@@ -83,7 +83,7 @@
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/passwordFieldSignIn"
+                    android:id="@+id/password_field_signin"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
