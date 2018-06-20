@@ -12,4 +12,15 @@
 
     <string name="have_acount">¿Ya tienes una cuenta?</string>
 
+    <string name="card_assistane">Asistencia</string>
+    <string name="card_assistance_description">Asistencia de tus estudiantes</string>
+    <string name="card_calification">Calificaciones</string>
+    <string name="card_group">Grupos</string>
+    <string name="card_student">Estudiantes</string>
+    <string name="card_calification_description">Califica a tus estudiantes</string>
+    <string name="card_group_description">Grupos de estudiantes</string>
+    <string name="card_student_description">Información de tus estudiantes</string>
+    <string name="content_description_image">TODO</string>
+
+
 </resources>

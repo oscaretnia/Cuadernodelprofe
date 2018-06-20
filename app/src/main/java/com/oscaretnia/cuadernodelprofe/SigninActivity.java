@@ -8,6 +8,9 @@ import android.widget.Button;
 
 public class SigninActivity extends AppCompatActivity implements View.OnClickListener{
 
+    private Button btnSignupAction;
+    private Button btnSignin;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,8 +18,8 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
 
         getSupportActionBar().hide();
 
-        Button btnSignupAction = findViewById(R.id.btn_signup_action);
-        Button btnSignin = findViewById(R.id.btn_signin);
+        btnSignupAction = findViewById(R.id.btn_signup_action);
+        btnSignin = findViewById(R.id.btn_signin);
         
         btnSignupAction.setOnClickListener(this);
         btnSignin.setOnClickListener(this);
@@ -42,12 +45,15 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     private void signin() {
+
+        Intent intent = new Intent(SigninActivity.this, HomeActivity.class);
+        startActivity(intent);
         
     }
 
     private void goSignup() {
 
-        Intent intent = new Intent(this, SignupActivity.class);
+        Intent intent = new Intent(SigninActivity.this, SignupActivity.class);
         startActivity(intent);
     }
 }

@@ -8,14 +8,17 @@ import android.widget.Button;
 
 public class SignupActivity extends AppCompatActivity implements View.OnClickListener{
 
+    private Button btnSigninAction;
+    private Button btnSignup;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
         getSupportActionBar().hide();
 
-        Button btnSigninAction = findViewById(R.id.btn_signin_action);
-        Button btnSignup = findViewById(R.id.btn_signup);
+        btnSigninAction = findViewById(R.id.btn_signin_action);
+        btnSignup = findViewById(R.id.btn_signup);
 
         btnSigninAction.setOnClickListener(this);
         btnSignup.setOnClickListener(this);
@@ -44,7 +47,7 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
 
     private void goSignin() {
 
-        Intent intent = new Intent(this, SigninActivity.class);
+        Intent intent = new Intent(SignupActivity.this, SigninActivity.class);
         startActivity(intent);
 
     }
