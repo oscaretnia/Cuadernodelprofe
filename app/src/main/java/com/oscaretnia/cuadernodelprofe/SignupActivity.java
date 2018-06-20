@@ -6,10 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class SignupActivity extends AppCompatActivity implements View.OnClickListener{
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 
-    private Button btnSigninAction;
-    private Button btnSignup;
+public class SignupActivity extends AppCompatActivity {
+
+    @BindView(R.id.btn_signin_action) Button btnSigninAction;
+    @BindView(R.id.btn_signup) Button btnSignup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,14 +21,11 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_signup);
         getSupportActionBar().hide();
 
-        btnSigninAction = findViewById(R.id.btn_signin_action);
-        btnSignup = findViewById(R.id.btn_signup);
+        ButterKnife.bind(this);
 
-        btnSigninAction.setOnClickListener(this);
-        btnSignup.setOnClickListener(this);
     }
 
-    @Override
+    @OnClick({R.id.btn_signin_action, R.id.btn_signup})
     public void onClick(View v) {
 
         switch (v.getId())
